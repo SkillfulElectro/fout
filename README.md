@@ -4,6 +4,7 @@ commandline utility to view files inside of the file or copy the file
 
 
 #install
+
 To install Fout, you can use the `make` command:
 
 ```shell

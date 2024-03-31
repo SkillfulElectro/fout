@@ -8,6 +8,7 @@ To install Fout, you can use the `make` command:
 ```shell
 $ make
 ```
+
 ##Usage :
 
 **Viewing a File**

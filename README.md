@@ -8,6 +8,7 @@ To install Fout, you can use the `make` command:
 $ make
 ```
 ##Usage
+
 #Viewing a File
 
 To print the contents of a file to the terminal, use the fout command followed by the file path. If the file and terminal are in the same directory, you can just specify the filename:

@@ -4,8 +4,8 @@ all:fout.c
 	@echo compiling ...
 	@gcc fout.c -o fout;\
                 echo installing ...
-	@cp fout /usr/bin/fout
-	@echo 'export PATH=$PATH:/usr/bin' >> ~/.bashrc;\
+	@cp fout $HOME/fout
+	@echo 'export PATH=$PATH:$HOME' >> ~/.bashrc;\
                 echo installed;\
                 echo cleaning ...
 
@@ -17,5 +17,5 @@ install: clean
 
 uninstall:
 	@echo uninstalling ... ;\
-       		rm -f /usr/bin/fout;\
+       		rm -f $HOME/fout;\
                 echo uninstalled !
